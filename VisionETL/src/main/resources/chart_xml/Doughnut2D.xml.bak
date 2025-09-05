@@ -1,0 +1,30 @@
+<CHART_XML>
+    <chart showPercentValues="0">
+        <set value="!@#Y_AXIS!@#" label="!@#X_AXIS!@#" color="#COLOR_CODE#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+    </chart>
+    <Description>Doughnut 3D Chart With No Labels Displayed</Description>
+    <SWF_FILE_NAME>Doughnut2D</SWF_FILE_NAME>
+    <REPEATING_TAG>set</REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>B</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>B</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

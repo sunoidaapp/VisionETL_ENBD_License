@@ -1,0 +1,50 @@
+<CHART_XML>
+    <chart theme="fusion" baseFontSize="12" legendItemFontSize="12" legendItemFont=" Roboto,Helvetica,Arial,sans-serif">
+        <categories font="Roboto,Helvetica,Arial,sans-serif" fontSize="12">
+            <category label="!@#X_AXIS!@#"></category>
+        </categories>
+        <dataset seriesname="!@#SERIES_AXIS!@#" color="#COLOR_CODE#" alpha="90" showValues="0">
+            <set value="!@#Y_AXIS!@#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+        </dataset>
+        <trendLines>
+            <line startValue="20" endValue="35" color="8BBA00" thickness="1" alpha="20" showOnTop="0" displayValue="Trend 1" isTrendZone="1" />
+        </trendLines>
+        <styles>
+            <definition>
+                <style name="Anim1" type="animation" param="_xScale" start="0" duration="1" />
+                <style name="Anim2" type="animation" param="_alpha" start="0" duration="1" />
+                <style name="myCaptionFont" type="font" align="left" />
+            </definition>
+            <application>
+                <apply toObject="TRENDLINES" styles="Anim1, Anim2" />
+                <apply toObject="Caption" styles="myCaptionFont" />
+            </application>
+        </styles>
+    </chart>
+    <Description>Overlapped Column 2D Chart</Description>
+    <SWF_FILE_NAME>overlappedColumn2D</SWF_FILE_NAME>
+    <REPEATING_TAG>                  category          </REPEATING_TAG>
+    <REPEATING_TAG>                  dataset,set          </REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>Y</Multi_Flag>
+            <selection>M</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

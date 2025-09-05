@@ -1,0 +1,13 @@
+<CHART_XML>
+    <chart baseFontSize="11" numberSuffix="%" labelFontSize="11" baseFontColor="#000000" outCnvBaseFontSize="8" outCnvBaseFontColor="#000000" legendItemFontSize="10" legendItemFont=" Roboto,Helvetica,Arial,sans-serif" animation="0"  bordercolor="FFFFFF" canvasbordercolor="FFFFFF" connectorcolor="ffffff" fillColor="#ffffff" fillalpha="10" formatNumber="1" showToolTip="1" showbevel="0" showborder="0" showshadow="0" usehovercolor="1">
+	    <dataset>
+	    	<set rowid="!@#SERIES_AXIS!@#" columnid="!@#X_AXIS!@#" value="!@#Y_AXIS!@#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+	    </dataset>
+	    <colorrange gradient="1" minvalue="0" code="!@#COLOR_CODE_1!@#" startlabel="Low" endlabel="High">
+		<color code="!@#COLOR_CODE_2!@#" minvalue="!@#AVG!@#" maxvalue="!@#MAX!@#" label="High" />
+	    </colorrange>
+    </chart>
+    <Description>Fusion Chart Maps to Treat all the maps</Description>
+    <SWF_FILE_NAME>HeatMap</SWF_FILE_NAME>
+    <REPEATING_TAG>set</REPEATING_TAG>
+</CHART_XML>

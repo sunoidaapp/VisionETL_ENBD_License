@@ -1,0 +1,28 @@
+<chart animation='0' annRenderDelay='0' baseFontColor='000000' bgColor='FFFFFF' bgcolor='FFFFFF' gaugeFillMix='' lowerLimit='!@#X_AXIS!@#' manageResize='1' minorTMNumber='0' numberSuffix='%' origH='90' origW='420' pointerBgColor='000000' pointerBorderColor='000000' pointerOnTop='0' pointerRadius='5' showBorder='0' showGaugeBorder='0' showShadow='0' showToolTip='1' ticksBelowGauge='1' upperLimit='!@#Y_AXIS!@#' valuePadding='0'>
+	<styles>
+		<definition>
+			<style bold='1' color='000000' font='Arial' name='myCaptionFont' showToolTip='1' size='10' type='font'/>
+		</definition>
+		<application>
+			<apply styles='myCaptionFont' toObject='Caption'/>
+		</application>
+	</styles>
+	<colorRange>
+		<color alpha='0' maxValue='100' minValue='0'/>
+	</colorRange>
+	<pointers>
+		<pointer value='!@#Z_AXIS!@#'/>
+	</pointers>
+	<annotations>
+		<annotationGroup showBelow='0' x='210' y='-765'>
+			<annotation color='FFFFFF' radius='800' type='circle'/>
+		</annotationGroup>
+		<annotationGroup showBelow='1'>
+			<annotation fillColor='E00000,FCEF27,678000' toX='$gaugeEndX' toY='$gaugeEndY' type='rectangle' x='$gaugeStartX' y='$gaugeStartY'/>
+		</annotationGroup>
+		<annotationGroup showBelow='0'>
+			<annotation bold='1' color='FFFFFF' label='Bad' size='10' type='text' x='$gaugeStartX+25' y='40'/>
+			<annotation bold='1' color='FFFFFF' label='Good' size='10' type='text' x='$gaugeEndX-25' y='40'/>
+		</annotationGroup>
+	</annotations>
+</chart>

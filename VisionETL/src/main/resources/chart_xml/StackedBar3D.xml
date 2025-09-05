@@ -1,0 +1,36 @@
+<CHART_XML>
+    <chart theme="fusion" baseFontSize="12" legendItemFontSize="12" legendItemFont=" Roboto,Helvetica,Arial,sans-serif">
+        <categories>
+            <category label="!@#X_AXIS!@#"></category>
+        </categories>
+        <dataset seriesname="!@#SERIES_AXIS!@#" color="#COLOR_CODE#">
+            <set value="!@#Y_AXIS!@#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+        </dataset>
+    </chart>
+    <Description>Stacked Bar 3D</Description>
+    <SWF_FILE_NAME>StackedBar3D</SWF_FILE_NAME>
+    <REPEATING_TAG>                  category          </REPEATING_TAG>
+    <REPEATING_TAG>                  dataset,set          </REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>Y</Multi_Flag>
+            <selection>M</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

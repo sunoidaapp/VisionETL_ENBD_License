@@ -1,0 +1,30 @@
+<CHART_XML>
+    <chart maxLabelHeight="40" useEllipsesWhenOverflow="1" theme="fusion" bgColor="FFFFFF,FFFFFF" showBorder="0" baseFontSize="12" legendItemFontSize="12" legendItemFont=" Roboto,Helvetica,Arial,sans-serif">
+        <set label="!@#X_AXIS!@#" value="!@#Y_AXIS!@#" color="#COLOR_CODE#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+    </chart>
+    <Description>Single Series Bar 2D Chart</Description>
+    <SWF_FILE_NAME>Bar2D</SWF_FILE_NAME>
+    <REPEATING_TAG>                  set          </REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>M</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

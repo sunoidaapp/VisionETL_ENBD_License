@@ -1,0 +1,46 @@
+<CHART_XML>
+    <chart theme="fusion" baseFontSize="12" legendItemFontSize="12" legendItemFont=" Roboto,Helvetica,Arial,sans-serif">
+        <categories fontSize="12">
+            <category label="!@#X_AXIS!@#"></category>
+        </categories>
+        <dataset seriesName="!@#SERIES_AXIS!@#" color="#COLOR_CODE#">
+            <set value="!@#Y_AXIS!@#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+        </dataset>
+        <styles>
+            <definition>
+                <style type="font" name="CaptionFont" color="666666" size="15"></style>
+                <style type="font" name="SubCaptionFont" bold="0"></style>
+            </definition>
+            <application>
+                <apply toObject="caption" styles="CaptionFont"></apply>
+                <apply toObject="SubCaption" styles="SubCaptionFont"></apply>
+            </application>
+        </styles>
+    </chart>
+    <Description>Multi Series Column 3D Chart</Description>
+    <SWF_FILE_NAME>MSColumn3D</SWF_FILE_NAME>
+    <REPEATING_TAG>                  category          </REPEATING_TAG>
+    <REPEATING_TAG>                  dataset,set          </REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>Y</Multi_Flag>
+            <selection>M</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

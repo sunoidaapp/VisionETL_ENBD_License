@@ -1,0 +1,12 @@
+<CHART_XML>
+    <chart animation="0"  bordercolor="FFFFFF" canvasbordercolor="FFFFFF" connectorcolor="000000" fillColor="#d9d9d9" fillalpha="80" formatNumber="1"  legendPosition="BOTTOM" legendallowdrag="0" legendborderalpha="0" legendbordercolor="ffffff" legendshadow="0" showLegend="1" showToolTip="1" showbevel="0" showborder="0" showshadow="0" usehovercolor="1" showLabels="1">
+	    <colorrange code="#FF4411" endlabel="High" formatNumber="1" gradient="1" minvalue="!@#MIN!@#" startlabel="Low">
+			<color code="#6baa01" formatNumber="1" maxvalue="!@#MAX!@#"/>
+			<color code="#FFDD44" displayvalue="Average" formatNumber="1" maxvalue="!@#AVG!@#"/>
+	    </colorrange>
+        <set id="!@#X_AXIS!@#" value="!@#Y_AXIS!@#" showLabel="1"></set>
+    </chart>
+    <Description>Fusion Chart Maps to Treat all the maps</Description>
+    <SWF_FILE_NAME>FCMap</SWF_FILE_NAME>
+    <REPEATING_TAG>set</REPEATING_TAG>
+</CHART_XML>

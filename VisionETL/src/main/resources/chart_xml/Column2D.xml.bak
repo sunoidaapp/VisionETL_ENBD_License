@@ -1,0 +1,26 @@
+<CHART_XML>
+    <chart maxLabelHeight="40" useEllipsesWhenOverflow="1" bgColor="FFFFFF,FFFFFF" showBorder="0">
+        <set label="!@#X_AXIS!@#" value="!@#Y_AXIS!@#" color="#COLOR_CODE#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+    </chart>
+    <Description>Single Series Column 2D Chart</Description>
+    <SWF_FILE_NAME>Column2D</SWF_FILE_NAME>
+    <REPEATING_TAG>set</REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>Y</Multi_Flag>
+            <selection>M</selection>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

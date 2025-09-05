@@ -1,0 +1,30 @@
+<CHART_XML>
+    <chart>
+        <set value="!@#Y_AXIS!@#" color="#COLOR_CODE#" label="!@#X_AXIS!@#" ddkey="!@#DRILLDOWN_KEY!@#"></set>
+    </chart>
+    <Description>Pareto 2D Chart</Description>
+    <SWF_FILE_NAME>Pareto2D</SWF_FILE_NAME>
+    <REPEATING_TAG>                  set          </REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>M</selection>
+            <enable>Y</enable>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+            <enable>N</enable>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+            <enable>Y</enable>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

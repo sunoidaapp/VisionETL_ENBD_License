@@ -1,0 +1,26 @@
+<CHART_XML>
+    <chart maxLabelHeight="40" useEllipsesWhenOverflow="1" theme="fusion" bgColor="FFFFFF,FFFFFF" showBorder="0" baseFontSize="12" legendItemFontSize="12" legendItemFont=" Roboto,Helvetica,Arial,sans-serif">
+        <set label="!@#X_AXIS!@#" value="!@#Y_AXIS!@#" color="#COLOR_CODE#"></set>
+    </chart>
+    <Description>Kagi Chart</Description>
+    <SWF_FILE_NAME>Kagi</SWF_FILE_NAME>
+    <REPEATING_TAG>set</REPEATING_TAG>
+    <TAB_PROPERTIES>
+        <X_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+        </X_AXIS>
+        <Y_AXIS>
+            <Multi_Flag>Y</Multi_Flag>
+            <selection>M</selection>
+        </Y_AXIS>
+        <Z_AXIS>
+            <Multi_Flag></Multi_Flag>
+            <selection></selection>
+        </Z_AXIS>
+        <SERIES_AXIS>
+            <Multi_Flag>N</Multi_Flag>
+            <selection>D</selection>
+        </SERIES_AXIS>
+    </TAB_PROPERTIES>
+</CHART_XML>

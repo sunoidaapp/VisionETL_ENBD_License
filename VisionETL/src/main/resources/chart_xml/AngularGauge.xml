@@ -1,0 +1,12 @@
+<CHART_XML>
+	<chart showValue="1" lowerlimit="!@#R_VALUE_1!@#" upperlimit="!@#Y_AXIS!@#" theme="fusion" baseFontSize="12" legendItemFontSize="12">
+	    <colorrange>
+	        <color minvalue="!@#R_VALUE_1!@#" maxvalue="!@#R_VALUE_2!@#" code="#e44a00" />
+	        <color minvalue="!@#R_VALUE_2!@#" maxvalue="!@#R_VALUE_3!@#" code="#f8bd19" />
+	        <color minvalue="!@#R_VALUE_3!@#" maxvalue="!@#Y_AXIS!@#" code="#6baa01" />
+	    </colorrange>
+	    <dials>
+	        <dial value="!@#X_AXIS!@#" />
+	    </dials>
+	</chart>
+</CHART_XML>
